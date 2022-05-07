@@ -1,5 +1,0 @@
-# Boarding
-
-## Definition
-
-## Metric
