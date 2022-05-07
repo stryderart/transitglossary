@@ -1,6 +1,6 @@
 # Transit Glossary
 
-[![Jupyter Book Badge](https://jupyterbook.org/badge.svg)]( https://stryderart.github.io/transit_glossary/)
+[![Jupyter Book Badge](https://jupyterbook.org/badge.svg)](https://stryderart.github.io/transitglossary/)
 
 Transit glossary for web portfolio.
 
