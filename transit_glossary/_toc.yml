@@ -4,5 +4,29 @@
 format: jb-book
 root: intro
 chapters:
-- file: markdown
-- file: notebooks
+- file: A
+- file: B
+- file: C
+- file: D
+- file: E
+- file: F
+- file: G
+- file: H
+- file: I
+- file: J
+- file: K
+- file: L
+- file: M
+- file: N
+- file: O
+- file: P
+- file: Q
+- file: R
+- file: S
+- file: T
+- file: U
+- file: V
+- file: W
+- file: X
+- file: Y
+- file: Z
