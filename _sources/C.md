@@ -13,7 +13,7 @@
 ````{dropdown} Vehicle Capacity
 ````
 
-(C:Cycle Time)=
+(C:CycleTime)=
 ## Cycle Time
 ```{tabbed} Definition
 The time a transit unit takes to complete a round trip to its destination and return to its origin, including layover and recovery time.
