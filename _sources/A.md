@@ -19,7 +19,7 @@ Metrics:
 ```{tabbed} Definition
 abbrev. "APC"
 
-A system of electronic devices typically installed at the doors of vehicles, that automatically detect and count passenger activity (boarding and {ref}`A:Alighting`).
+A system of electronic devices typically installed at the doors of vehicles, that automatically detect and count passenger activity ({ref}`B:Boarding` and {ref}`A:Alighting`).
 
 It is a highly valuable and commonplace technological development that allows public transport providers to measure their ridership.
 

@@ -1,21 +1,33 @@
 # L
 
 ## Line
-```{dropdown} Branch Line
+````{dropdown} Branch Line
+```{tabbed} Definition
 
 ```
-```{dropdown} Feeder Line
-```
-```{dropdown} Loop / Circulator
-```
-```{dropdown} Radial Line
+````
+````{dropdown} Feeder Line
+```{tabbed} Definition
 
 ```
-```{dropdown} Trunk Line
+````
+````{dropdown} Loop / Circulator
+```{tabbed} Definition
+
 ```
+````
+````{dropdown} Radial Line
+```{tabbed} Definition
+
+```
+````
+````{dropdown} Trunk Line
+```{tabbed} Definition
+
+```
+````
 
 ## Load Factor
-````{dropdown} Load Factor
 ```{tabbed} Definition
 α (alpha)
 
@@ -30,7 +42,8 @@ Metrics:
 
 The Load Factor is calculated by
 
-$\frac{Σ passenger km travelled}{Σ seat km travelled}\$
+$$
+\frac{Σ passenger km travelled}{Σ seat km travelled}\
+$$
 
 ```
-````

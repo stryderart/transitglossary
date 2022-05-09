@@ -1,9 +1,11 @@
 # Q
 
-## Quality of Service Indicators
+## Quality of Service Indicator
 
-```{dropdown}
+```{tabbed} Definition
+abbrev. "QSI"
 
+A category of metrics for assessing the quality of public transport services provided.
 
 ```
 

@@ -19,3 +19,9 @@ Metrics:
 ## Blocking
 
 ## Bunching
+```{tabbed} Definition
+* a.k.a "clumping"
+A phenomenon where multiple public transport vehicles or {ref}`T:Transit Units` (TUs) on the same route are operating in the same place at the same time, thus arriving at stops together or unintended rapid succession. This typically occurs when traffic conditions or other incidents lead to a TU being delayed, thus reducing its {ref}`H:Headway` with the following TU.
+
+This is an important occurrence for service providers to track, as it distorts schedules and passenger expectations, prolonging wait times whilst duplicating the supply of public transport services at a later time.
+```
