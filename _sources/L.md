@@ -2,22 +2,35 @@
 
 ## Line
 ```{dropdown} Branch Line
+
 ```
 ```{dropdown} Feeder Line
 ```
 ```{dropdown} Loop / Circulator
 ```
 ```{dropdown} Radial Line
+
 ```
 ```{dropdown} Trunk Line
 ```
 
 ## Load Factor
-```{dropdown}
-> α (alpha)
+````{dropdown} Load Factor
+```{tabbed} Definition
+α (alpha)
 
-: The capacity utilisation rate of a public transport service.
+The capacity utilisation rate of a public transport service.
 
-A ratio calculated by total passenger km travelled
+It is used to measure the effectiveness of a public transport service, whether the supply (seats provided) is being utilised and thus is worth the cost of investment.
 ```
-: Load Factor
+```{tabbed} Application
+Metrics:
+* Percentage (%)
+* Ratio
+
+The Load Factor is calculated by
+
+$\frac{Σ passenger km travelled}{Σ seat km travelled}\$
+
+```
+````
