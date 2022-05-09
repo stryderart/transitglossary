@@ -1,12 +1,15 @@
 # C
 
-## Capacity - Line
+## Capacity
+### Line Capacity
 
-## Capacity - Vehicle
+## Capacity
+### Vehicle Capacity
 
-## Capacity - Standing
+## Capacity
+### Standing Capacity
 
-## Capacity - Station
+### Capacity - Station
 
 ## Cycle Time
 
