@@ -1,13 +1,15 @@
 # C
 
 ## Capacity
-### Line Capacity
-
-### Vehicle Capacity
-
-### Standing Capacity
-
-### Capacity - Station
+```{dropdown} Line Capacity
+This
+```
+```{dropdown} Standing Capacity
+```
+```{dropdown} Station Capacity
+```
+```{dropdown} Vehicle Capacity
+```
 
 ## Cycle Time
 
