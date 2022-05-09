@@ -1,7 +1,6 @@
-# Welcome to your Jupyter Book
+# Landing Page
 
-This is a small sample book to give you a feel for how book content is
-structured.
+Public Transport Terminology Glossary
 
 :::{note}
 Here is a note!

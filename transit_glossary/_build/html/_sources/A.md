@@ -1,5 +1,3 @@
 # A
 
-## Amazing
-
-## Apple
+## Alighting
