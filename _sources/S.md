@@ -2,6 +2,19 @@
 
 ## Schedule
 
+```{tabbed} 20:00
+* Patrick - Showing off tabbed content
+* Dusting - Watching AOE vids
+```
+
+```{tabbed} 20:03
+* Patrick - Playing Anthem song
+```
+
+```{tabbed} 20:05
+* Patrick and Dustin - Appreciate the glory that is Rebecca Black.
+```
+
 ## Scheduled Service
 
 ## Scope Creep
