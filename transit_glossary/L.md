@@ -1,5 +1,20 @@
 # L
 
+(L:Layover)=
+## Layover
+```{tabbed} Definition
+a.k.a. "Terminal Time"
+
+The duration a public transport vehicle spends at a terminal in-between consecutive scheduled trips.
+
+This is an important factor to consider in scheduling, to ensure drivers and operators have a sufficient break in-between trips.
+```
+```{tabbed} Application
+Metrics:
+* Time (in minutes)
+* Percentage (%) of runtime or cycle time.
+```
+
 ## Line
 ````{dropdown} Branch Line
 ```{tabbed} Definition
@@ -18,6 +33,11 @@
 ````
 ````{dropdown} Radial Line
 ```{tabbed} Definition
+A public transport route that links a central location to a satellite location, within a city or metropolitan area.
+
+```
+```{tabbed} Example
+
 
 ```
 ````

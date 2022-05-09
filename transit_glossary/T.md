@@ -6,7 +6,16 @@
 
 ## Timed Transfer
 
+(T:Trip)=
 ## Trip
+```{tabbed} Definition
 
-(T:Transit Unit)=
+A sequence of two or more stops (or stations) that will occur at specific times, from an origin start terminal to end destination terminal.
+
+A trip is the fundamental building block of a public transport service {ref}`S:Schedule`.
+
+This is often easily confused with a {ref}`R:Run`, which is the overall assignment that an operator is given including {ref}`D:Deadhead`, Trips, and {ref}`L:Layover`.
+
+```
+(T:TransitUnit)=
 ## Transit Unit
