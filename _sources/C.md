@@ -3,10 +3,8 @@
 ## Capacity
 ### Line Capacity
 
-## Capacity
 ### Vehicle Capacity
 
-## Capacity
 ### Standing Capacity
 
 ### Capacity - Station
