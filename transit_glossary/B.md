@@ -34,7 +34,9 @@ This is a crucial part of the scheduling process, as it determines the availabil
 
 Blocking is done by selecting all the individual {ref}`R:Run`s that a specific vehicle will perform in a day, accounting for {ref}`L:Layover`s. Then, these runs are grouped together into a block, specific to that vehicle.
 
-The goal of blocking is to optimise layover times, and identify where drivers or operators should begin and end their shifts whilst minimising {ref}`D:Deadhead`.
+The goal of blocking is to optimise layover times, and identify where drivers or operators should begin and end their shifts whilst minimising {ref}`D:Deadhead`. Cost-efficient blocking helps agencies minimise operating expenses and the number of vehicles needed.
+
+Where large gaps of time emerge between runs in a block, opportunities for {ref}`I:Interlining` can be identified. A vehicle's assignments serving a different route are also included into the block.
 
 ```
 ## Bunching

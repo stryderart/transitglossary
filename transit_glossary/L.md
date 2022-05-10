@@ -1,7 +1,14 @@
 # L
 
 (L:Layover)=
-## Layover
+##Layover
+a.k.a. "Terminal"
+```{tabbed} Definition
+A designated location for {ref}`T:TransitUnit`s or {ref}`V:Vehicle`s to idle in-between scheduled trips, commonly where operators break, change shifts, and where supervisors are stationed.
+
+Where "terminal" is a more universal term across public transport {ref}`M:Mode`s, "layover" is more commonly used for bus services.
+```
+## Layover Time
 ```{tabbed} Definition
 a.k.a. "Terminal Time"
 
@@ -24,6 +31,13 @@ Metrics:
 ````{dropdown} Feeder Line
 ```{tabbed} Definition
 
+```
+````
+````{dropdown} Intercity Line
+```{tabbed} Definition
+A type of regional public transportation service that connects two cities or metropolitan areas. Common examples are commuter rail and commuter bus services.
+
+These are the fundamental services planned for regional level coverage.
 ```
 ````
 ````{dropdown} Loop / Circulator
@@ -49,7 +63,7 @@ A public transport route that links a central location to a satellite location, 
 
 ## Load Factor
 ```{tabbed} Definition
-α (alpha)
+a.k.a. "α (alpha)"
 
 The capacity utilisation rate of a public transport service.
 
@@ -60,7 +74,7 @@ Metrics:
 * Percentage (%)
 * Ratio
 
-The Load Factor is calculated by
+The Load Factor is calculated by...
 
 $$
 \frac{Σ passenger km travelled}{Σ seat km travelled}\
