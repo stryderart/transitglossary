@@ -14,6 +14,7 @@ Metrics:
 * Passengers per km travelled per hour.
 ```
 
+(A:APC)=
 ## Automated Passenger Counter
 
 ```{tabbed} Definition

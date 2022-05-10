@@ -1,9 +1,10 @@
 # L
 
 (L:Layover)=
-##Layover
-a.k.a. "Terminal"
+## Layover
 ```{tabbed} Definition
+a.k.a. "Terminal"
+
 A designated location for {ref}`T:TransitUnit`s or {ref}`V:Vehicle`s to idle in-between scheduled trips, commonly where operators break, change shifts, and where supervisors are stationed.
 
 Where "terminal" is a more universal term across public transport {ref}`M:Mode`s, "layover" is more commonly used for bus services.
@@ -12,7 +13,7 @@ Where "terminal" is a more universal term across public transport {ref}`M:Mode`s
 ```{tabbed} Definition
 a.k.a. "Terminal Time"
 
-The duration a public transport vehicle spends at a terminal in-between consecutive scheduled trips.
+The duration a {ref}`T:TransitUnit` spends at a terminal in-between consecutive scheduled trips.
 
 This is an important factor to consider in scheduling, to ensure drivers and operators have a sufficient break in-between trips.
 ```

@@ -5,20 +5,45 @@
 abbrev. "RTPI"
 ```
 ## Recovery Time
+```{tabbed} Definition
 
+```
 
 ## Revenue Service
+```{tabbed} Definition
+
+```
 
 (R:Ridership)=
 ## Ridership
 ```{tabbed} Definition
 a.k.a. "Passenger Volume"
-The volume of passengers using
+
+The volume of passengers using a public transportation service. Generally counted as the number of unlinked {ref}`B:Boarding`s (which excludes transfers), but can also be counted as every boarding action taken on a system.
+
+Ridership is often counted using {ref}`A:APC`s.
+
+```
+```{tabbed} Application
+Metrics:
+* Discrete number i.e. number of rides
+* Number per time (in months or years)
 ```
 
+(R:ROW)=
 ## Right-of-Way
 ```{tabbed} Definition
-a.k.a. "ROW"
+abbrev. "ROW"
+
+A legally exclusive and physically separated strip of land for use by public transport vehicles.
+```
+```{tabbed} Application
+
+In the USA, ROWs are differentiated along three categories:
+* Category A: A fully controlled Right-of-Way, generally {ref}`G:Grade` without crossings, such as a fully underground train line.
+* Category B: A physically defined and separated ROW, but with at-grade crossings such as street intersections.
+* Category C: A ROW integrated at surface street level, mixed in with other modes of transportation and pedestrians.
+
 ```
 
 ## Rolling Stock

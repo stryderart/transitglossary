@@ -14,7 +14,7 @@ Metrics:
 ```
 ## Fixed Route
 ```{tabbed} Definition
-A type of public transport route design that has a predetermined path, stops/stations, and terminals. The vast majority of public transport services are fixed route services.
+A type of public transport route design that has a predetermined path, stops/stations, and terminals. It also runs on a predetermined, consistently recurring schedule. The vast majority of public transport services are fixed route services.
 
 This is contrasted with {ref}`O:OnDemand`, where vehicles pick up passengers where they are requested; and Semi-Fixed Route services that may have certain deviations along a general direction of travel.
 ```
@@ -30,13 +30,26 @@ This is the infrastructural workforce of a public transport system.
 ## Frequency
 ````{dropdown} Actual Frequency
 ```{tabbed} Definition
+The rate at which {ref}`T:TransitUnit`s are being dispatched, in vehicles per hour. A higher frequency means greater supply and reliability of a public transport system.
 
+This is the inverse of {ref}`H:Headway`.
 
 ```
 ```{tabbed} Application
 Metrics:
-*Vehicles per hour
+* TUs per hour
+* TUs per minute
+
+Conversion to headway:
+$$
+\frac{1}{Headway}\
+$$
+
 ```
 ````
 ````{dropdown} Scheduled Frequency
+```{tabbed} Definition
+The rate at which public transport vehicles are expected to be dispatched, in vehicles per hour.
+
+```
 ````
