@@ -28,7 +28,7 @@ This is the general span of time where public transport services operate on a ba
 
 The process conducted by public transport service providers to divide a day's {ref}`S:Schedule` by {ref}`V:Vehicle` assignments.
 
-This is a crucial part of the scheduling process, as it determines the availability of {ref}`T:TransitUnit` within a day. It is further used in the {ref}`R:Runcutting` process to develop work shifts for operators and calculate the overall labour needed to operate service.
+This is a crucial part of the scheduling process, as it determines the availability of {ref}`T:TransitUnit`s within a day. It is further used in the {ref}`R:Runcutting` process to develop work shifts for operators and calculate the overall labour needed to operate service.
 ```
 ```{tabbed} Application
 
