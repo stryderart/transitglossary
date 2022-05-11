@@ -1,25 +1,32 @@
 # C
 
 ## Capacity
+
 ````{dropdown} Line Capacity
 ```{tabbed} Definition
-
+Tabbed directive fix test.
 ```
 ````
+
 ````{dropdown} Standing Capacity
 ````
+
 ````{dropdown} Station Capacity
 ````
+
 ````{dropdown} Vehicle Capacity
 ````
 
 (C:CycleTime)=
+
 ## Cycle Time
+
 ```{tabbed} Definition
 The time a transit unit takes to complete a round trip to its destination and return to its origin, including layover and recovery time.
 
 The Cycle Time is a key element in public transport service scheduling, as it represents the time needed for a {ref}`T:Transit Unit` to complete its primary function, and identifies when it can be used again.
 ```
+
 ```{tabbed} Application
 Metrics:
 * Time in minutes
@@ -29,6 +36,7 @@ The Cycle Time is calculated by adding the total trip time for both directions, 
 ```
 
 ## Central Business District
+
 ```{tabbed} Definition
 abbrev. "CBD"
 

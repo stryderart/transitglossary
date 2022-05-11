@@ -4,6 +4,7 @@
 
 ````{dropdown} Line Capacity
 ```{tabbed} Definition
+Tabbed directive fix test.
 ```
 ````
 
