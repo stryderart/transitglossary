@@ -90,8 +90,6 @@ Metrics:
 
 The Load Factor is calculated by...
 
-$$
-\frac{Σ passenger km travelled}{Σ seat km travelled}\
-$$
+$$ \frac{\sum \text{passenger km travelled}}{\sum \text{seat km travelled}} $$
 
 ```
