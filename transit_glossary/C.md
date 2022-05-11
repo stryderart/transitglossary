@@ -24,7 +24,7 @@ The Cycle Time is a key element in public transport service scheduling, as it re
 Metrics:
 * Time in minutes
 
-The Cycle Time is calculated by adding the total {ref}`R:Runtime` for both directions, total {ref}`D:DwellTime` at stops, and total {ref}`L:Layover` Time at both terminals.
+The Cycle Time is calculated by adding the total trip time for both directions, total {ref}`D:DwellTime` at stops, and total {ref}`L:Layover` Time at both terminals.
 
 ```
 

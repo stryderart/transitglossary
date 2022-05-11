@@ -3,6 +3,7 @@
 (S:Schedule)=
 ## Schedule
 ```{tabbed} Definition
+The listed departure and/or arrival times of public transport services.
 
 ```
 
@@ -15,11 +16,16 @@ A system's scheduled service can be found from documents such as public timetabl
 
 ## Scope Creep
 ```{tabbed} Definition
-The phenomenon where
+a.k.a. "Project Creep", "Feature Creep"
+
+A phenomenon where a project's requirements, costs, or features increase over its lifecycle. Commonly observed in construction and infrastructural projects.
+
+Scope Creep can be damaging to a public sector project and its responsible agency's image. Building in sufficient contingencies or buffering to anticipate time and cost overruns is important in managing public expectations of new public transport projects.
 ```
 
 ## Service Span
 ```{tabbed} Definition
+
 
 ```
 
@@ -32,11 +38,14 @@ The phenomenon where
 ````{dropdown} Operating Speed
 ```{tabbed} Definition
 
+The actual velocity of a {ref}`T:TransitUnit` in service, based on roadside conditions.
 ```
 ````
 ````{dropdown} Maximum Technical Speed
 ```{tabbed} Definition
+abbrev. "MTS"
 
+The highest possible speed that a public transport {ref}`V:Vehicle`
 ```
 ````
 ## State of Good Repair
