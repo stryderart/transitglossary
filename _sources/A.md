@@ -1,13 +1,16 @@
 # A
 
 (A:Alighting)=
+
 ## Alighting
 
 ```{tabbed} Definition
 The exit of passengers from a public transport vehicle.
 
 This is a fundamental measurement of passenger flows using in public transport.
+
 ```
+
 ```{tabbed} Application
 Metrics:
 * Discrete number (i.e. 320 passengers)
@@ -15,6 +18,7 @@ Metrics:
 ```
 
 (A:APC)=
+
 ## Automated Passenger Counter
 
 ```{tabbed} Definition

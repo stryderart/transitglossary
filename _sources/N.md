@@ -1,6 +1,7 @@
 # N
 
 ## Network Density
+
 ```{tabbed} Definition
 
 A measurement of the proportion of public transport routes on roads compared to overall road availability.
@@ -8,6 +9,7 @@ A measurement of the proportion of public transport routes on roads compared to 
 Network density signifies the accessibility and availability of public transport in an urban terrain.
 
 ```
+
 ```{tabbed} Application
 
 Metrics:
@@ -17,6 +19,7 @@ Metrics:
 ```
 
 ## Network Effectiveness
+
 ```{tabbed} Definition
 
 An assessment metric of whether a public transport network is serving the capacity of passengers proportionate to what it was infrastructurally designed for .

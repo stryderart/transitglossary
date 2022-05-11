@@ -1,6 +1,7 @@
 # H
 
 ## Headsign
+
 ```{tabbed} Definition
 An information display generally installed on the front and side of public transport vehicles, that states the route or line information such as name, destination, and occasionally places of interest along the route.
 
@@ -8,7 +9,9 @@ Headsigns are important components of a public transport vehicle, providing crit
 ```
 
 (H:Headway)=
+
 ## Headway
+
 ````{dropdown} Actual Headway
 ```{tabbed} Definition
 
@@ -27,6 +30,7 @@ $$
 $$
 ```
 ````
+
 ````{dropdown} Effective Headway
 ```{tabbed} Definition
 
@@ -55,7 +59,9 @@ $$
 
 ```
 ````
+
 (P:PolicyHeadway)=
+
 ````{dropdown} Policy Headway
 ```{tabbed} Definition
 The baseline scheduled length of time between {ref}`T:TransitUnit` serving a particular route. It can be interpreted as the baseline (or maximum) time a passenger should generally expect to wait between vehicles, at any station or time of day on a route.

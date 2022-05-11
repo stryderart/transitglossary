@@ -1,12 +1,15 @@
 # R
 
 ## Real-Time Passenger Information
+
 ```{tabbed} Definition
 abbrev. "RTPI"
 
 
 ```
+
 ## Recovery Time
+
 ```{tabbed} Definition
 
 The time built into a {ref}`S:Schedule` in-between a {ref}`T:TransitUnit`'s arrival and destination time, to catch up on potential delays.
@@ -17,6 +20,7 @@ Building in recovery time is an important element of scheduling to consider, esp
 ```
 
 ## Revenue Service
+
 ```{tabbed} Definition
 
 The span of time a {ref}`T:TransitUnit`
@@ -24,7 +28,9 @@ The span of time a {ref}`T:TransitUnit`
 ```
 
 (R:Ridership)=
+
 ## Ridership
+
 ```{tabbed} Definition
 a.k.a. "Passenger Volume"
 
@@ -33,6 +39,7 @@ The volume of passengers using a public transportation service. Generally counte
 Ridership is often counted using {ref}`A:APC`s.
 
 ```
+
 ```{tabbed} Application
 Metrics:
 * Discrete number i.e. number of rides
@@ -40,12 +47,15 @@ Metrics:
 ```
 
 (R:ROW)=
+
 ## Right-of-Way
+
 ```{tabbed} Definition
 abbrev. "ROW"
 
 A legally exclusive and physically separated strip of land for use by public transport vehicles.
 ```
+
 ```{tabbed} Application
 
 In the USA, ROWs are differentiated along three categories:
@@ -56,6 +66,7 @@ In the USA, ROWs are differentiated along three categories:
 ```
 
 ## Rolling Stock
+
 ```{tabbed} Definition
 The railway-based {ref}`T:TransitUnit`s that make up a {ref}`F:Fleet`. Rolling stock can be powered or unpowered.
 
@@ -63,7 +74,9 @@ In the USA, rolling stock can also refer to any public transport vehicle, rangin
 ```
 
 (R:Run)=
+
 ## Run
+
 ```{tabbed} Definition
 The tasks assigned to operators during a day. Runs may consist of a partial, one whole, or more than one block (see {ref}`B:Blocking`).
 
@@ -71,7 +84,9 @@ This term is easily confused with {ref}`T:Trip`, which refers to the individual 
 ```
 
 (R:Runcutting)=
+
 ## Runcutting
+
 ```{tabbed} Definition
 The iterative scheduling process used to develop {ref}`R:Run`s from a vehicle block assignment.
 

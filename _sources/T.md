@@ -1,23 +1,29 @@
 # T
 
 ## Time Loss
+
 ```{tabbed} Definition
 
 ```
 
 (T:Timepoint)=
+
 ## Timepoint
+
 ```{tabbed} Definition
 
 ```
 
 ## Timed Transfer
+
 ```{tabbed} Definition
 
 ```
 
 (T:Trip)=
+
 ## Trip
+
 ```{tabbed} Definition
 
 A sequence of two or more stops (or stations) that will occur at specific times, from an origin start terminal to end destination terminal.
@@ -28,12 +34,15 @@ This is often easily confused with a {ref}`R:Run`, which is the overall assignme
 ```
 
 (T:TransitUnit)=
+
 ## Transit Unit
+
 ```{tabbed} Definition
 abbrev. "TU"
 
 One or more vehicles travelling and operating together as a physical unit.
 ```
+
 ```{tabbed} Examples
 
 An eight-carriage train would be considered one TU, composed of eight vehicles.

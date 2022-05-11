@@ -1,18 +1,21 @@
 # F
 
 ## Farebox Recovery
+
 ```{tabbed} Definition
 The percentage of public transport operating costs that are paid for by fare revenue and/or other directly generated revenue.
 
 This is an important metric of financial sustainability for any public transport provider, as it also inversely reveals the level of subsidisation needed to provide service. The Farebox Recovery Ratio informs fare policy decision-making, and is at the centre of such debates.
 ```
+
 ```{tabbed} Application
 Metrics:
 * Percentage (%) i.e. 22% of operating costs are recovered by farebox
 * Ratio i.e. for every $1 it takes to operate service, 22¢ is paid for by fares.
-
 ```
+
 ## Fixed Route
+
 ```{tabbed} Definition
 A type of public transport route design that has a predetermined path, stops/stations, and terminals. It also runs on a predetermined, consistently recurring schedule. The vast majority of public transport services are fixed route services.
 
@@ -20,6 +23,7 @@ This is contrasted with {ref}`O:OnDemand`, where vehicles pick up passengers whe
 ```
 
 ## Fleet
+
 ```{tabbed} Definition
 The set of {ref}`T:TransitUnit`s either operated by or under the ownership of a public transport agency.
 
@@ -27,7 +31,9 @@ This is the infrastructural workforce of a public transport system.
 ```
 
 (F:Frequency)=
+
 ## Frequency
+
 ````{dropdown} Actual Frequency
 ```{tabbed} Definition
 The rate at which {ref}`T:TransitUnit`s are being dispatched, in vehicles per hour. A higher frequency means greater supply and reliability of a public transport system.
@@ -46,7 +52,9 @@ $$
 $$
 
 ```
+
 ````
+
 ````{dropdown} Scheduled Frequency
 ```{tabbed} Definition
 The rate at which public transport vehicles are expected to be dispatched, in vehicles per hour.

@@ -1,6 +1,7 @@
 # W
 
 ## Waiting Time
+
 ```{tabbed} Definition
 The duration a passenger spends at a stop or {ref}`S:Station` before they are able to board a public transport vehicle.
 
