@@ -5,7 +5,7 @@
 ## Schedule
 
 ```{tabbed} Definition
-The listed departure and/or arrival times of public transport services.
+The listed departure and/or arrival times of public transport services. It determines the rate at which {ref}`T:TransitUnit`s are dispatched for service.
 
 ```
 
@@ -27,19 +27,28 @@ A phenomenon where a project's requirements, costs, or features increase over it
 Scope Creep can be damaging to a public sector project and its responsible agency's image. Building in sufficient contingencies or buffering to anticipate time and cost overruns is important in managing public expectations of new public transport projects.
 ```
 
+(S:ServiceSpan)=
 ## Service Span
 
 ```{tabbed} Definition
 
-
+The period of time that a public transport service is scheduled to operate and be publicly accessible. This can be in terms of hours in a day (i.e. 06:00 to 21:00), or days of a year (i.e. all days excluding public holidays).
 ```
 
 ## Spare Ratio
 
 ```{tabbed} Definition
 
+A benchmark value measuring the proportion of a public transit service provider's fleet that is held in reserve and unused. This metric is important for ensuring that agencies have contingencies in the event active vehicles fall out of service, whether due to mechanical reasons or unpredictable causes such as road traffic collisions.
+```
+```{tabbed} Application
+Metrics:
+* Percentage (%)
+
+In the USA, the Federal Transit Administration requires that all United States public transport agencies to maintain a 20% spare ratio.
 ```
 
+(S:Speed)=
 ## Speed
 
 ````{dropdown} Operating Speed

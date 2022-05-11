@@ -25,6 +25,7 @@ Vehicles can be put together, such as trailers on a truck or carriages on a loco
 
 ```
 
+(V:VMT)=
 ## Vehicle Miles Travelled
 
 ```{tabbed} Definition

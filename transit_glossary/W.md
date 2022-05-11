@@ -1,5 +1,6 @@
 # W
 
+(W:Wait)=
 ## Waiting Time
 
 ```{tabbed} Definition
