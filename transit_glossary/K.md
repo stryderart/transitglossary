@@ -1,6 +1,7 @@
 # K
 
 ## Kneeling
+
 ```{tabbed} Definition
 An air-adjustable suspension system generally built into buses that enables an operator to lower the bus floor to the ground, improving ease of access during boarding and alighting.
 

@@ -1,6 +1,7 @@
 # B
 
 (B:Boarding)=
+
 ## Boarding
 
 ```{tabbed} Definition
