@@ -3,14 +3,23 @@
 ## Real-Time Passenger Information
 ```{tabbed} Definition
 abbrev. "RTPI"
+
+
 ```
 ## Recovery Time
 ```{tabbed} Definition
 
+The time built into a {ref}`S:Schedule` in-between a {ref}`T:TransitUnit`'s arrival and destination time, to catch up on potential delays.
+
+{ref}`L:Layover` Time can be considered as a specific type of recovery time.
+
+Building in recovery time is an important element of scheduling to consider, especially when roadside conditions are known to be unpredictable and volatile.
 ```
 
 ## Revenue Service
 ```{tabbed} Definition
+
+The span of time a {ref}`T:TransitUnit`
 
 ```
 
@@ -68,6 +77,3 @@ The iterative scheduling process used to develop {ref}`R:Run`s from a vehicle bl
 
 Where {ref}`B:Blocking` is used to optimise the number of vehicles needed in service, Runcutting is used to optimise the number of operators or drivers needed to provide service.
 ```
-
-(R:Runtime)=
-## Runtime

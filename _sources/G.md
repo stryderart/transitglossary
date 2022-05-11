@@ -17,11 +17,16 @@ A standardised format for public transport schedule and geographic data. GTFS da
 
 (G:Grade)=
 ## Grade Separation
-
 ```{tabbed} Definition
-An engineering and planning strategy to separate multiple modes of transportation onto different heights, enabling exclusive {ref}`R:ROW` for each.
+An engineering and planning tactic to separate multiple modes of transportation onto different heights, enabling exclusive {ref}`R:ROW` for each.
+
+Grade separated rights-of-way have significant implications for {ref}`O:OTP` of public transport systems, as it mitigates the impact of traffic conditions and variability from each trip.
 
 ```
 ```{tabbed} Examples
+
+* At-Grade: at the same level as surface right-of-way
+* Below-Grade: i.e. underground tunnels, subways
+* Above-Grade: i.e. aerial tram, elevated bridge, monorail systems
 
 ```

@@ -1,6 +1,6 @@
 # H
 
-##Headsign
+## Headsign
 ```{tabbed} Definition
 An information display generally installed on the front and side of public transport vehicles, that states the route or line information such as name, destination, and occasionally places of interest along the route.
 
