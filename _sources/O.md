@@ -6,6 +6,7 @@
 
 ```{tabbed} Definition
 abbrev. "OTP"
+
 An assessment metric for the quality and reliability of public transportation services.
 ```
 
@@ -14,11 +15,16 @@ An assessment metric for the quality and reliability of public transportation se
 ## On-Demand Route
 
 ```{tabbed} Definition
+a.k.a. "Demand-Responsive Transit"
 
+A type of public transport service with a route and/or schedule that is responsive to passenger demand.
 ```
+```{tabbed} Examples
 
-## Origin-Destination
+Examples of On-Demand Services include:
+* Dial-a-Ride
+* Taxi
 
-```{tabbed} Definition
+An interesting example would be Hong Kong's Public MiniBus services, which generally have predetermined fixed routes but drivers can stop at any intersection along the way that a passenger requests (as long as it is safe.)
 
 ```

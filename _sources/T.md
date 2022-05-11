@@ -1,9 +1,9 @@
 # T
 
-## Time Loss
-
+## Time Lost
 ```{tabbed} Definition
 
+The time involved between decceleration to a stop/station and boarding the first passenger; the time involved between acceleration from stationary to operating {ref}`S:Speed`.
 ```
 
 (T:Timepoint)=
@@ -12,11 +12,23 @@
 
 ```{tabbed} Definition
 
+A designation given to specific stops or stations spaced out along a route, where actual arrival and departure times are recorded.
+
+Timepoints are used on most timetabled routes, to track {ref}`O:OTP`. Sometimes, recovery time is built into timepoints as well.
+
+Considerations when selecting timepoints include:
+* Ridership
+* Position along the route
+* Distance between previous and next stops
 ```
 
 ## Timed Transfer
 
 ```{tabbed} Definition
+
+A scheduling tactic that attempts to line up {ref}`T:TransitUnit` arrivals between two routes at an interchange, ensuring passengers can switch between them.
+
+Timed transfers are best used at major interchanges, where transfers are expected to be high. This tactic helps improve passenger travel times by reducing transfer {ref}`W:Wait`.
 
 ```
 

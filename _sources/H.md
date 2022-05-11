@@ -20,6 +20,7 @@ The duration of time between {ref}`T:TransitUnit` serving a particular route at 
 This is important information to understand a public transport service's {ref}`O:OTP`, by examining the difference between Actual Headway and {ref}`P:PolicyHeadway`.
 
 A headway is one way to quantify the level of public transport services offered. It is the inverse of {ref}`F:Frequency`.
+```
 ```{tabbed} Application
 Metrics:
 * Minutes per TU. (i.e. a bus every five minutes)
@@ -40,7 +41,7 @@ The composite time between {ref}`T:TransitUnit`s connecting a particular origin 
 ```{tabbed} Application
 
 Metrics:
-* * Minutes per TU. (i.e. a bus every five minutes)
+* Minutes per TU. (i.e. a bus every five minutes)
 
 For example, if three bus routes connect stop A with stop D, which respectively run at 15, 13, and 7 minute headways, then the Effective Headway is:
 

@@ -51,6 +51,8 @@ const thebe_selector_input = "pre"
 const thebe_selector_output = ".output, .cell_output"
 </script>
     <script async="async" src="_static/sphinx-thebe.js"></script>
+    <script>window.MathJax = {"options": {"processHtmlClass": "tex2jax_process|mathjax_process|math|output_area"}}</script>
+    <script defer="defer" src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
     <link rel="index" title="Index" href="genindex.html" />
     <link rel="search" title="Search" href="search.html" />
     <link rel="next" title="V" href="V.html" />
@@ -334,6 +336,32 @@ const thebe_selector_output = ".output, .cell_output"
 <h1>U<a class="headerlink" href="#u" title="Permalink to this headline">¶</a></h1>
 <div class="section" id="utilisation-rate">
 <h2>Utilisation Rate<a class="headerlink" href="#utilisation-rate" title="Permalink to this headline">¶</a></h2>
+<div class="tabbed-set docutils">
+<input checked="checked" id="48d357b1-4fbe-421f-9ba7-4b5a8f28ecb8" name="9b0ee935-31bd-4202-998d-63848477d34d" type="radio">
+</input><label class="tabbed-label" for="48d357b1-4fbe-421f-9ba7-4b5a8f28ecb8">
+Definition</label><div class="tabbed-content docutils">
+<p>An assessment metric that measures the degree a vehicle is being productive, along a given route and timeframe. It measures the proportion of vehicle hours that are being used to operate revenue service.</p>
+<p>The utilisation rate helps planners assess whether a route is being cost-effective and productive, and helps identify which services could use higher frequencies to minimise idling and layover time.</p>
+</div>
+<input id="084529f3-1cfe-4b87-937d-c4be89a06b2e" name="9b0ee935-31bd-4202-998d-63848477d34d" type="radio">
+</input><label class="tabbed-label" for="084529f3-1cfe-4b87-937d-c4be89a06b2e">
+Application</label><div class="tabbed-content docutils">
+<p>Metrics:</p>
+<ul class="simple">
+<li><p>Percentage (%)</p></li>
+</ul>
+<p>Utilisation Rate is calculated by
+<span class="math notranslate nohighlight">\(
+\frac{Revenue Service Hours}{(Vehicles Required) x ({ref}`S:ServiceSpan`)}
+\)</span></p>
+<p>where Service Span and Revenue Service Hours are converted to minutes.</p>
+</div>
+<input id="c5032df0-84fc-4c46-bbaf-8908de12baa2" name="9b0ee935-31bd-4202-998d-63848477d34d" type="radio">
+</input><label class="tabbed-label" for="c5032df0-84fc-4c46-bbaf-8908de12baa2">
+Example</label><div class="tabbed-content docutils">
+<p>WIP</p>
+</div>
+</div>
 </div>
 </div>
 
