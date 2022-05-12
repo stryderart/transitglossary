@@ -9,11 +9,7 @@ I intend for this to be an educational resource, to make public transport jargon
 Search for terms in the top left corner of the page, or search for them by the first letter of each term along the left sidebar.
 
 
-```{image} ../img/landing_page.jpeg
-:alt: Sydney Light Rail
-:width: 1200px
-:align: center
-```
+<img src="../img/landing_page.jpeg" alt= "Sydney Light Rail" width= "1200px" align= "center">
 
 
 Last Revised: 10th May 2022
