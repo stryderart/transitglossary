@@ -35,6 +35,7 @@ Passenger miles is calculated by multiplying the number of passengers by their r
 
 ```{tabbed} Definition
 
+A metric that describes the magnitude of difference in passenger flow between one selected hour and the overall {ref}`B:BasePeriod`.
 
 ```
 
