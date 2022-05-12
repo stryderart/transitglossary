@@ -5,7 +5,7 @@
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>P &#8212; Transit Glossary</title>
+    <title>P &#8212; Public Transport Glossary</title>
     
   <link href="_static/css/theme.css" rel="stylesheet">
   <link href="_static/css/index.ff1ffe594081f20da1ef19478df9384b.css" rel="stylesheet">
@@ -78,7 +78,7 @@ const thebe_selector_output = ".output, .cell_output"
       
       
       
-      <h1 class="site-logo" id="site-title">Transit Glossary</h1>
+      <h1 class="site-logo" id="site-title">Public Transport Glossary</h1>
       
     </a>
 </div><form class="bd-search d-flex align-items-center" action="search.html" method="get">
@@ -302,11 +302,6 @@ const thebe_selector_output = ".output, .cell_output"
   </a>
  </li>
  <li class="toc-h2 nav-item toc-entry">
-  <a class="reference internal nav-link" href="#passenger-trip">
-   Passenger Trip
-  </a>
- </li>
- <li class="toc-h2 nav-item toc-entry">
   <a class="reference internal nav-link" href="#peak-hour-coefficient">
    Peak Hour Coefficient
   </a>
@@ -352,11 +347,6 @@ const thebe_selector_output = ".output, .cell_output"
   </a>
  </li>
  <li class="toc-h2 nav-item toc-entry">
-  <a class="reference internal nav-link" href="#passenger-trip">
-   Passenger Trip
-  </a>
- </li>
- <li class="toc-h2 nav-item toc-entry">
   <a class="reference internal nav-link" href="#peak-hour-coefficient">
    Peak Hour Coefficient
   </a>
@@ -385,44 +375,59 @@ const thebe_selector_output = ".output, .cell_output"
 <div class="section" id="passenger-flow">
 <h2>Passenger Flow<a class="headerlink" href="#passenger-flow" title="Permalink to this headline">¶</a></h2>
 <div class="tabbed-set docutils">
-<input checked="checked" id="47276564-d248-46fe-8095-ae233d2e64d0" name="52bd8043-4521-4255-9194-9cfc455e4b31" type="radio">
-</input><label class="tabbed-label" for="47276564-d248-46fe-8095-ae233d2e64d0">
+<input checked="checked" id="d5ca9d57-4fa2-497f-bc4a-a2d2b69fb4c9" name="67a4db92-31f9-4976-923c-86d7570fc0a0" type="radio">
+</input><label class="tabbed-label" for="d5ca9d57-4fa2-497f-bc4a-a2d2b69fb4c9">
 Definition</label><div class="tabbed-content docutils">
+<p>The number of passengers who pass through a given location in a particular direction, over a defined length of time.</p>
+<p>It is a measurement of movement capacity, which is helpful in understanding the effectiveness of public transport infrastructure.</p>
+</div>
+<input id="a1319b31-9e2b-4621-b430-5175ccada1b0" name="67a4db92-31f9-4976-923c-86d7570fc0a0" type="radio">
+</input><label class="tabbed-label" for="a1319b31-9e2b-4621-b430-5175ccada1b0">
+Application</label><div class="tabbed-content docutils">
+<p>Metrics:</p>
+<ul class="simple">
+<li><p>Number of passengers per Hour</p></li>
+<li><p>Number of passengers per Minute</p></li>
+</ul>
+<p>i.e. Every hour, 70 passengers boarded the southbound train through platform 1.</p>
 </div>
 </div>
 </div>
 <div class="section" id="passenger-miles">
 <h2>Passenger Miles<a class="headerlink" href="#passenger-miles" title="Permalink to this headline">¶</a></h2>
 <div class="tabbed-set docutils">
-<input checked="checked" id="61643797-72eb-4452-8546-d91ffd8e8c80" name="e4cc29a3-3456-4164-a3d0-bafb27f6516c" type="radio">
-</input><label class="tabbed-label" for="61643797-72eb-4452-8546-d91ffd8e8c80">
+<input checked="checked" id="92ba4eec-6441-4d33-9b6f-63d0178f9d58" name="fcb2cef6-abb8-4017-8488-0d28fdb12930" type="radio">
+</input><label class="tabbed-label" for="92ba4eec-6441-4d33-9b6f-63d0178f9d58">
 Definition</label><div class="tabbed-content docutils">
+<p>A metric that describes the total number of miles travelled by passengers on a public transport system over a defined period of time.</p>
+<p>It is a measurement that helps us understand how much distance travelled is served by a public transport system, which when contrasted with car <a class="reference internal" href="V.html#v-vmt"><span class="std std-ref">Vehicle Miles Travelled</span></a>, can highlight the impact a system is making by satisfying travel demand.</p>
 </div>
-</div>
-</div>
-<div class="section" id="passenger-trip">
-<h2>Passenger Trip<a class="headerlink" href="#passenger-trip" title="Permalink to this headline">¶</a></h2>
-<div class="tabbed-set docutils">
-<input checked="checked" id="18e937b6-de80-4fa3-a3d1-7a59b8bffd5a" name="9eb85948-4ae6-481e-878f-27a36690e2c2" type="radio">
-</input><label class="tabbed-label" for="18e937b6-de80-4fa3-a3d1-7a59b8bffd5a">
+<input id="e9658dc8-3fc5-475b-a9ec-30b3c56df205" name="fcb2cef6-abb8-4017-8488-0d28fdb12930" type="radio">
+</input><label class="tabbed-label" for="e9658dc8-3fc5-475b-a9ec-30b3c56df205">
 Definition</label><div class="tabbed-content docutils">
+<p>Metrics:</p>
+<ul class="simple">
+<li><p>Discrete number (i.e. 128,000 passenger miles travelled in a month)</p></li>
+</ul>
+<p>Passenger miles is calculated by multiplying the number of passengers by their respective distances travelled.</p>
 </div>
 </div>
 </div>
 <div class="section" id="peak-hour-coefficient">
 <h2>Peak Hour Coefficient<a class="headerlink" href="#peak-hour-coefficient" title="Permalink to this headline">¶</a></h2>
 <div class="tabbed-set docutils">
-<input checked="checked" id="750cfe82-0268-4c21-acc6-a0a81a9fef6d" name="970857cc-5c03-47ff-b97b-09cc6eada5e1" type="radio">
-</input><label class="tabbed-label" for="750cfe82-0268-4c21-acc6-a0a81a9fef6d">
+<input checked="checked" id="62c9fd97-af39-443b-9e4d-f26d61d80a2a" name="295c72f3-b20d-41f1-bf29-5ad926e9c811" type="radio">
+</input><label class="tabbed-label" for="62c9fd97-af39-443b-9e4d-f26d61d80a2a">
 Definition</label><div class="tabbed-content docutils">
+<p>A metric that describes the magnitude of difference in passenger flow between one selected hour and the overall <a class="reference internal" href="B.html#b-baseperiod"><span class="std std-ref">Base Period</span></a>.</p>
 </div>
 </div>
 </div>
 <div class="section" id="peak-period">
 <h2>Peak Period<a class="headerlink" href="#peak-period" title="Permalink to this headline">¶</a></h2>
 <div class="tabbed-set docutils">
-<input checked="checked" id="38d5f77e-ead2-4ae4-afb2-bb8356b79f22" name="f9cef7c2-f002-4893-ab40-ad88cdbfc14d" type="radio">
-</input><label class="tabbed-label" for="38d5f77e-ead2-4ae4-afb2-bb8356b79f22">
+<input checked="checked" id="ad09f7a8-8879-4b74-b44b-a2fcc5e51880" name="7f179d0f-37a8-4dc0-bbf9-0f7d6ee7ea41" type="radio">
+</input><label class="tabbed-label" for="ad09f7a8-8879-4b74-b44b-a2fcc5e51880">
 Definition</label><div class="tabbed-content docutils">
 </div>
 </div>
@@ -430,8 +435,8 @@ Definition</label><div class="tabbed-content docutils">
 <div class="section" id="priority-signalisation">
 <h2>Priority Signalisation<a class="headerlink" href="#priority-signalisation" title="Permalink to this headline">¶</a></h2>
 <div class="tabbed-set docutils">
-<input checked="checked" id="8077b91d-dc93-47b2-b432-77c842491b1c" name="e9bad6aa-8ffa-42b7-b6b7-eb9fd7692a44" type="radio">
-</input><label class="tabbed-label" for="8077b91d-dc93-47b2-b432-77c842491b1c">
+<input checked="checked" id="4d231a2b-7d1f-4e92-9eba-a7e451d171d3" name="4e132fd6-0474-49fe-a327-f0f3bd476d6d" type="radio">
+</input><label class="tabbed-label" for="4d231a2b-7d1f-4e92-9eba-a7e451d171d3">
 Definition</label><div class="tabbed-content docutils">
 </div>
 </div>
@@ -484,7 +489,7 @@ Definition</label><div class="tabbed-content docutils">
     <footer class="footer">
   <p>
     
-      By Stryder<br/>
+      By StryderArt<br/>
     
         &copy; Copyright 2022.<br/>
   </p>

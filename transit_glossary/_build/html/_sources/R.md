@@ -5,7 +5,7 @@
 ```{tabbed} Definition
 abbrev. "RTPI"
 
-
+A 
 ```
 
 ## Recovery Time
