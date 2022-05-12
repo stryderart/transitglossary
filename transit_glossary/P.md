@@ -36,19 +36,22 @@ Passenger miles is calculated by multiplying the number of passengers by their r
 ```{tabbed} Definition
 
 A metric that describes the magnitude of difference in passenger flow between one selected hour and the overall {ref}`B:BasePeriod`.
-
 ```
 
 ## Peak Period
 
 ```{tabbed} Definition
 
+The duration of time in a day when passenger demand for public transport services is expected to surge beyond the capacity of the {ref}`B:BasePeriod`.
 
+This is an important time period for agencies to consider when designing schedules, as it will alter labour and asset allocations.
 ```
 
 ## Priority Signalisation
 
 ```{tabbed} Definition
 
+A traffic engineering strategy and infrastructural program that uses sensor technology to alter the behaviour of traffic signals, giving precedence to public transport vehicles (such as buses and trains) through intersections.
 
+Priority signalisation can improve the Operating {ref}'S:Speed's and {ref}`C:CycleTime`s of public transport services, reducing costs and enhancing the passenger experience.
 ```
