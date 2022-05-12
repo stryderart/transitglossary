@@ -22,6 +22,8 @@ A type of public transport route design that has a predetermined path, stops/sta
 This is contrasted with {ref}`O:OnDemand`, where vehicles pick up passengers where they are requested; and Semi-Fixed Route services that may have certain deviations along a general direction of travel.
 ```
 
+(F:Fleet)=
+
 ## Fleet
 
 ```{tabbed} Definition

@@ -27,6 +27,7 @@ The time period when services are scheduled at a regular, consistent level. This
 
 This is the general span of time where public transport services operate on a baseline {ref}`H:Headway` or {ref}`F:Frequency`, not varying in response to demand.
 ```
+(B:Blocking)=
 
 ## Blocking
 

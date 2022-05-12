@@ -5,7 +5,7 @@
 ```{tabbed} Definition
 abbrev. "RTPI"
 
-A 
+A network of displays, screens, mobile applications, and other devices that enable passengers to directly access live information about their public transport services. It is an integrated system of hardware and software, and is most commonly facilitated by {ref}`G:GTFS`.
 ```
 
 ## Recovery Time
@@ -19,11 +19,20 @@ The time built into a {ref}`S:Schedule` in-between a {ref}`T:TransitUnit`'s arri
 Building in recovery time is an important element of scheduling to consider, especially when roadside conditions are known to be unpredictable and volatile.
 ```
 
+(R:RevenueService)=
+
 ## Revenue Service
 
 ```{tabbed} Definition
 
-The span of time a {ref}`T:TransitUnit`
+A metric that captures the quantity of productive service a {ref}`T:TransitUnit` has provided, specifically from actively taking passengers during public operation. Time spent on charter or school bus services are generally not accounted for.
+
+```
+```{tabbed} Application
+Metrics:
+* Revenue Service Hours (time in hours)
+* Revenue Service Miles (distance in miles)
+* Revenue Service Trips (discrete number)
 
 ```
 
