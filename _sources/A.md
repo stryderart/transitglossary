@@ -7,7 +7,7 @@
 ```{tabbed} Definition
 The exit of passengers from a public transport vehicle.
 
-This is a fundamental measurement of passenger flows using in public transport.
+This is a fundamental measurement of passenger flows using public transport.
 
 ```
 
