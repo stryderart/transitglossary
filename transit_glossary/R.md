@@ -51,7 +51,8 @@ Ridership is often counted using {ref}`A:APC`s.
 
 ```{tabbed} Application
 Metrics:
-* Discrete number i.e. number of rides
+* Discrete number i.e. number of Boardings
+* Discrete number adjusted i.e. "Unlinked Passenger Trips" as defined by the United States FTA.
 * Number per time (in months or years)
 ```
 

@@ -14,6 +14,7 @@ Search for terms in the top left corner of the page, or search for them by the f
 :align: center
 ```
 Circular Quay Light Rail Terminus
+
 Sydney, New South Wales, Australia
 
 Last Revised: 11th May 2022
