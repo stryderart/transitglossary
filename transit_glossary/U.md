@@ -1,7 +1,7 @@
 # U
 
 ## Utilisation Rate
-
+````{tab-set}
 ```{tab-item} Definition
 
 An assessment metric that measures the degree a vehicle is being productive, along a given route and timeframe. It measures the proportion of vehicle hours that are being used to operate revenue service.
@@ -24,3 +24,4 @@ where Service Span and Revenue Service Hours are converted to minutes.
 
 WIP
 ```
+````

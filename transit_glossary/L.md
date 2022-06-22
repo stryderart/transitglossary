@@ -3,7 +3,7 @@
 (L:Layover)=
 
 ## Layover
-
+````{tab-set}
 ```{tab-item} Definition
 a.k.a. "Terminal"
 
@@ -11,9 +11,10 @@ A designated location for {ref}`T:TransitUnit`s or {ref}`V:Vehicle`s to idle in-
 
 Where "terminal" is a more universal term across public transport {ref}`M:Mode`s, "layover" is more commonly used for bus services.
 ```
+````
 
 ## Layover Time
-
+````{tab-set}
 ```{tab-item} Definition
 a.k.a. "Terminal Time"
 
@@ -27,36 +28,34 @@ Metrics:
 * Time (in minutes)
 * Percentage (%) of runtime or cycle time.
 ```
+````
 
 ## Line
 
 ````{dropdown} Branch Line
-```{tab-item} Definition
 
-```
 ````
 
 ````{dropdown} Feeder Line
-```{tab-item} Definition
 
-```
 ````
 
-````{dropdown} Intercity Line
+`````{dropdown} Intercity Line
+````{tab-set}
 ```{tab-item} Definition
 A type of regional public transportation service that connects two cities or metropolitan areas. Common examples are commuter rail and commuter bus services.
 
 These are the fundamental services planned for regional level coverage.
 ```
 ````
+`````
 
 ````{dropdown} Loop / Circulator
-```{tab-item} Definition
 
-```
 ````
 
-````{dropdown} Radial Line
+`````{dropdown} Radial Line
+````{tab-set}
 ```{tab-item} Definition
 A public transport route that links a central location to a satellite location, within a city or metropolitan area.
 
@@ -66,15 +65,14 @@ A public transport route that links a central location to a satellite location, 
 
 ```
 ````
+`````
 
 ````{dropdown} Trunk Line
-```{tab-item} Definition
 
-```
 ````
 
 ## Load Factor
-
+````{tab-set}
 ```{tab-item} Definition
 a.k.a. "α (alpha)"
 
@@ -95,3 +93,4 @@ $$
 $$
 
 ```
+````

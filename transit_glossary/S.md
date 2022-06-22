@@ -53,20 +53,24 @@ In the USA, the Federal Transit Administration requires that all United States p
 
 (S:Speed)=
 ## Speed
-````{dropdown} Operating Speed
+`````{dropdown} Operating Speed
+````{tab-set}
 ```{tab-item} Definition
 
 The actual velocity of a {ref}`T:TransitUnit` in service, based on roadside conditions.
 ```
 ````
+`````
 
-````{dropdown} Maximum Technical Speed
+`````{dropdown} Maximum Technical Speed
+````{tab-set}
 ```{tab-item} Definition
 abbrev. "MTS"
 
 The highest possible speed that a public transport {ref}`V:Vehicle`
 ```
 ````
+`````
 
 ## State of Good Repair
 
@@ -74,24 +78,26 @@ The highest possible speed that a public transport {ref}`V:Vehicle`
 The FTA developed a funding initiative known as the State of Good Repair (SGR) program, which provides funding grants for the maintenance of public transport infrastructure and assets.
 
 ```
-
+````{tab-set}
 ```{tab-item} Definition
 A asset management principle that public transport agencies adopt to maintain a working fleet and infrastructure to a high standard, incorporating preventative measures and practices.
 
 ```
+````
 
 (S:Station)=
 
 ## Station
-
+````{tab-set}
 ```{tab-item} Definition
 A dedicated facility for {ref}`B:Boarding` and {ref}`A:Alighting` activities (for passengers), or loading and unloading activities (cargo), that is commonly equipped with a platform and other amenities.
 
 Stations are generally {ref}`G:Grade`, as opposed to Stops which are generally integrated at street level.
 ```
+````
 
 ## Station Area Coverage
-
+````{tab-set}
 ```{tab-item} Definition
 The area within 400 meters (1/4 mile) or a five minute walk from a stop or station.
 
@@ -105,3 +111,4 @@ Metrics:
 
 This information can often be found using Geographic Information Systems (GIS) analysis tools or network analysis.
 ```
+````

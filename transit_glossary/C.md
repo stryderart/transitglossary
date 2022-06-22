@@ -3,9 +3,6 @@
 ## Capacity
 
 ````{dropdown} Line Capacity
-```{tab-item} Definition
-tab-item directive fix test.
-```
 ````
 
 ````{dropdown} Standing Capacity
