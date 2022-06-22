@@ -7,14 +7,14 @@
 ## Mode
 
 ````{dropdown} Automated People Mover
-```{tabbed} Definition
+```{tab-item} Definition
 abbrev. "APM"
 
 ```
 ````
 
 ````{dropdown} Bus Rapid Transit
-```{tabbed} Definition
+```{tab-item} Definition
 abbrev. "BRT"
 
 
@@ -22,39 +22,39 @@ abbrev. "BRT"
 ````
 
 ````{dropdown} Commuter Rail
-```{tabbed} Definition
+```{tab-item} Definition
 
 
 ```
 ````
 
 ````{dropdown} Heavy Rail
-```{tabbed} Definition
+```{tab-item} Definition
 
 
 ```
 ````
 
 ````{dropdown} Light Rail
-```{tabbed} Definition
+```{tab-item} Definition
 
 ```
 ````
 
 ````{dropdown} Local Bus
-```{tabbed} Definition
+```{tab-item} Definition
 
 ```
 ````
 
 ````{dropdown} Microtransit
-```{tabbed} Definition
+```{tab-item} Definition
 
 ```
 ````
 
 ````{dropdown} Paratransit
-```{tabbed} Definition
+```{tab-item} Definition
 
 ```
 ````

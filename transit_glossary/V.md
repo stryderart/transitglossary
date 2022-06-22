@@ -4,13 +4,13 @@
 
 ## Vehicle
 
-```{tabbed} Definition
+```{tab-item} Definition
 
 A basic unit of carriage used for transporting passengers or cargo.
 
 ```
 
-```{tabbed} Examples
+```{tab-item} Examples
 
 i.e. a single train carriage
 i.e. a single bus
@@ -21,14 +21,14 @@ Vehicles can be put together, such as trailers on a truck or carriages on a loco
 
 ## Vehicle Life
 
-```{tabbed} Definition
+```{tab-item} Definition
 
 ```
 
 (V:VMT)=
 ## Vehicle Miles Travelled
 
-```{tabbed} Definition
+```{tab-item} Definition
 abbrev. "VMT"
 
 

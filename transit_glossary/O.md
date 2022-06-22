@@ -4,7 +4,7 @@
 
 ## On-Time Performance
 
-```{tabbed} Definition
+```{tab-item} Definition
 abbrev. "OTP"
 
 An assessment metric for the quality and reliability of public transportation services.
@@ -14,12 +14,12 @@ An assessment metric for the quality and reliability of public transportation se
 
 ## On-Demand Route
 
-```{tabbed} Definition
+```{tab-item} Definition
 a.k.a. "Demand-Responsive Transit"
 
 A type of public transport service with a route and/or schedule that is responsive to passenger demand.
 ```
-```{tabbed} Examples
+```{tab-item} Examples
 
 Examples of On-Demand Services include:
 * Dial-a-Ride

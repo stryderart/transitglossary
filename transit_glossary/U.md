@@ -2,14 +2,14 @@
 
 ## Utilisation Rate
 
-```{tabbed} Definition
+```{tab-item} Definition
 
 An assessment metric that measures the degree a vehicle is being productive, along a given route and timeframe. It measures the proportion of vehicle hours that are being used to operate revenue service.
 
 The utilisation rate helps planners assess whether a route is being cost-effective and productive, and helps identify which services could use higher frequencies to minimise idling and layover time.
 ```
 
-```{tabbed} Application
+```{tab-item} Application
 Metrics:
 * Percentage (%)
 
@@ -20,7 +20,7 @@ $
 
 where Service Span and Revenue Service Hours are converted to minutes.
 ```
-```{tabbed} Example
+```{tab-item} Example
 
 WIP
 ```

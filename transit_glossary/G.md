@@ -11,7 +11,7 @@ For more, see the [Official GTFS Documentation](https://developers.google.com/tr
 
 ```
 
-```{tabbed} Definition
+```{tab-item} Definition
 abbrev. "GTFS"
 
 A standardised format for public transport schedule and geographic data. GTFS data is developed by public transport agencies, and can be in static or real-time formats.
@@ -21,14 +21,14 @@ A standardised format for public transport schedule and geographic data. GTFS da
 
 ## Grade Separation
 
-```{tabbed} Definition
+```{tab-item} Definition
 An engineering and planning tactic to separate multiple modes of transportation onto different heights, enabling exclusive {ref}`R:ROW` for each.
 
 Grade separated rights-of-way have significant implications for {ref}`O:OTP` of public transport systems, as it mitigates the impact of traffic conditions and variability from each trip.
 
 ```
 
-```{tabbed} Examples
+```{tab-item} Examples
 
 * At-Grade: at the same level as surface right-of-way
 * Below-Grade: i.e. underground tunnels, subways
