@@ -50,6 +50,8 @@ const thebe_selector_input = "pre"
 const thebe_selector_output = ".output, .cell_output"
 </script>
     <script async="async" src="_static/sphinx-thebe.js"></script>
+    <script>window.MathJax = {"options": {"processHtmlClass": "tex2jax_process|mathjax_process|math|output_area"}}</script>
+    <script defer="defer" src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
     <link rel="index" title="Index" href="genindex.html" />
     <link rel="search" title="Search" href="search.html" />
     <link rel="next" title="I" href="I.html" />
@@ -449,6 +451,14 @@ title="Print to PDF"
 <h1>H<a class="headerlink" href="#h" title="Permalink to this headline">#</a></h1>
 <section id="headsign">
 <h2>Headsign<a class="headerlink" href="#headsign" title="Permalink to this headline">#</a></h2>
+<div class="sd-tab-set docutils">
+<input checked="checked" id="a0df28a0-e280-407e-9c36-cbea2c92f45d" name="7b77e654-68ab-4f59-8701-7addf33057ad" type="radio">
+</input><label class="sd-tab-label" for="a0df28a0-e280-407e-9c36-cbea2c92f45d">
+Definition</label><div class="sd-tab-content docutils">
+<p>An information display generally installed on the front and side of public transport vehicles, that states the route or line information such as name, destination, and occasionally places of interest along the route.</p>
+<p>Headsigns are important components of a public transport vehicle, providing critical passenger information about the route and the purpose of this service.</p>
+</div>
+</div>
 </section>
 <section id="headway">
 <span id="h-headway"></span><h2>Headway<a class="headerlink" href="#headway" title="Permalink to this headline">#</a></h2>
@@ -459,6 +469,27 @@ Actual Headway<div class="sd-summary-down docutils">
 <div class="sd-summary-up docutils">
 <svg version="1.1" width="1.5em" height="1.5em" class="sd-octicon sd-octicon-chevron-up" viewBox="0 0 24 24" aria-hidden="true"><path fill-rule="evenodd" d="M18.78 15.28a.75.75 0 000-1.06l-6.25-6.25a.75.75 0 00-1.06 0l-6.25 6.25a.75.75 0 101.06 1.06L12 9.56l5.72 5.72a.75.75 0 001.06 0z"></path></svg></div>
 </summary><div class="sd-summary-content sd-card-body docutils">
+<div class="sd-tab-set docutils">
+<input checked="checked" id="3cc463de-bb07-402e-9b4e-3c5624eb36f2" name="1311b263-bf66-4522-b422-8cbb9edeb4dd" type="radio">
+</input><label class="sd-tab-label" for="3cc463de-bb07-402e-9b4e-3c5624eb36f2">
+Definition</label><div class="sd-tab-content docutils">
+<p class="sd-card-text">The duration of time between <a class="reference internal" href="T.html#t-transitunit"><span class="std std-ref">Transit Unit</span></a> serving a particular route at a given station/stop, at a given time of day. It can be interpreted as the time a passenger spends waiting for a vehicle.</p>
+<p class="sd-card-text">This is important information to understand a public transport service’s <a class="reference internal" href="O.html#o-otp"><span class="std std-ref">On-Time Performance</span></a>, by examining the difference between Actual Headway and <span class="xref std std-ref">P:PolicyHeadway</span>.</p>
+<p class="sd-card-text">A headway is one way to quantify the level of public transport services offered. It is the inverse of <a class="reference internal" href="F.html#f-frequency"><span class="std std-ref">Frequency</span></a>.</p>
+</div>
+<input id="33beb5ba-104b-45fd-bacc-48f6ab141bc0" name="1311b263-bf66-4522-b422-8cbb9edeb4dd" type="radio">
+</input><label class="sd-tab-label" for="33beb5ba-104b-45fd-bacc-48f6ab141bc0">
+Application</label><div class="sd-tab-content docutils">
+<p class="sd-card-text">Metrics:</p>
+<ul class="simple">
+<li><p class="sd-card-text">Minutes per TU. (i.e. a bus every five minutes)</p></li>
+</ul>
+<p class="sd-card-text">Conversion to frequency…
+$<span class="math notranslate nohighlight">\(
+\frac{1}{Frequency}\
+\)</span>$</p>
+</div>
+</div>
 </div>
 </details><details class="sd-sphinx-override sd-dropdown sd-card sd-mb-3">
 <summary class="sd-summary-title sd-card-header">
@@ -467,6 +498,36 @@ Effective Headway<div class="sd-summary-down docutils">
 <div class="sd-summary-up docutils">
 <svg version="1.1" width="1.5em" height="1.5em" class="sd-octicon sd-octicon-chevron-up" viewBox="0 0 24 24" aria-hidden="true"><path fill-rule="evenodd" d="M18.78 15.28a.75.75 0 000-1.06l-6.25-6.25a.75.75 0 00-1.06 0l-6.25 6.25a.75.75 0 101.06 1.06L12 9.56l5.72 5.72a.75.75 0 001.06 0z"></path></svg></div>
 </summary><div class="sd-summary-content sd-card-body docutils">
+<div class="sd-tab-set docutils">
+<input checked="checked" id="07a76ed2-276f-43a5-9f97-891b051d7108" name="7cdd9da8-6686-4dec-a60c-c8c5e6c1fc7b" type="radio">
+</input><label class="sd-tab-label" for="07a76ed2-276f-43a5-9f97-891b051d7108">
+Definition</label><div class="sd-tab-content docutils">
+<p class="sd-card-text">The composite time between <a class="reference internal" href="T.html#t-transitunit"><span class="std std-ref">Transit Unit</span></a>s connecting a particular origin and destination trip, accounting for all routes that serve this connection. It is the time a passenger must wait for a vehicle to deliver them to their destination, regardless of what route they take.</p>
+</div>
+<input id="243fe943-8363-43eb-b02a-e90458d8a11a" name="7cdd9da8-6686-4dec-a60c-c8c5e6c1fc7b" type="radio">
+</input><label class="sd-tab-label" for="243fe943-8363-43eb-b02a-e90458d8a11a">
+Application</label><div class="sd-tab-content docutils">
+<p class="sd-card-text">Metrics:</p>
+<ul class="simple">
+<li><p class="sd-card-text">Minutes per TU. (i.e. a bus every five minutes)</p></li>
+</ul>
+<p class="sd-card-text">For example, if three bus routes connect stop A with stop D, which respectively run at 15, 13, and 7 minute headways, then the Effective Headway is:</p>
+<ol class="simple">
+<li><p class="sd-card-text">Finding the <a class="reference internal" href="F.html#f-frequency"><span class="std std-ref">Frequency</span></a> per hour
+$<span class="math notranslate nohighlight">\(
+\frac{60 mins}{15 mins headway}\ + \frac{60 mins}{13 mins headway}\ + \frac{60 mins}{7 mins headway}\ = 17.2 buses per hour
+\)</span>$</p></li>
+<li><p class="sd-card-text">Finding the Frequency per minute
+$<span class="math notranslate nohighlight">\(
+\frac{17.2 buses/hr}{60 mins}\ = 0.54 buses per minute
+\)</span>$</p></li>
+<li><p class="sd-card-text">Conversion back to Headways
+$<span class="math notranslate nohighlight">\(
+\frac{1}{0.54 buses/min}\ = 1.84 minutes per bus
+\)</span>$</p></li>
+</ol>
+</div>
+</div>
 </div>
 </details><details class="sd-sphinx-override sd-dropdown sd-card sd-mb-3" id="p-policyheadway">
 <summary class="sd-summary-title sd-card-header">
@@ -475,6 +536,22 @@ Policy Headway<div class="sd-summary-down docutils">
 <div class="sd-summary-up docutils">
 <svg version="1.1" width="1.5em" height="1.5em" class="sd-octicon sd-octicon-chevron-up" viewBox="0 0 24 24" aria-hidden="true"><path fill-rule="evenodd" d="M18.78 15.28a.75.75 0 000-1.06l-6.25-6.25a.75.75 0 00-1.06 0l-6.25 6.25a.75.75 0 101.06 1.06L12 9.56l5.72 5.72a.75.75 0 001.06 0z"></path></svg></div>
 </summary><div class="sd-summary-content sd-card-body docutils">
+<div class="sd-tab-set docutils">
+<input checked="checked" id="738dea0e-b91a-4b29-8d60-83d64008bc3c" name="8bd5011a-79b0-4636-b477-da1b99ddc989" type="radio">
+</input><label class="sd-tab-label" for="738dea0e-b91a-4b29-8d60-83d64008bc3c">
+Definition</label><div class="sd-tab-content docutils">
+<p class="sd-card-text">The baseline scheduled length of time between <a class="reference internal" href="T.html#t-transitunit"><span class="std std-ref">Transit Unit</span></a> serving a particular route. It can be interpreted as the baseline (or maximum) time a passenger should generally expect to wait between vehicles, at any station or time of day on a route.</p>
+<p class="sd-card-text">A policy headway is generally used for low demand or low ridership routes, to provide minimal level of service to a region.</p>
+</div>
+<input id="43dac8f6-6add-4506-8774-93d5b6d8c8eb" name="8bd5011a-79b0-4636-b477-da1b99ddc989" type="radio">
+</input><label class="sd-tab-label" for="43dac8f6-6add-4506-8774-93d5b6d8c8eb">
+Application</label><div class="sd-tab-content docutils">
+<p class="sd-card-text">Metrics:</p>
+<ul class="simple">
+<li><p class="sd-card-text">Minutes per TU</p></li>
+</ul>
+</div>
+</div>
 </div>
 </details></section>
 </section>

@@ -3,8 +3,8 @@
 (I:Interlining)=
 
 ## Interlining
-
-```{tabbed} Definition
+````{tab-set}
+```{tab-item} Definition
 
 An operational procedure where two or more routes that share at least one terminal are operationally combined, with vehicles and operators shared across them on one schedule.
 
@@ -12,6 +12,7 @@ Interlining is used as a method for public transport agencies and service provid
 
 ```
 
-```{tabbed} Example
-
+```{tab-item} Example
+placeholder
 ```
+````

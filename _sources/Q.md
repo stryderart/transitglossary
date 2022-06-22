@@ -11,9 +11,11 @@ See [TfL's Performance Reporting Page](https://tfl.gov.uk/forms/14144.aspx) for 
 
 ```
 
-```{tabbed} Definition
+````{tab-set}
+```{tab-item} Definition
 abbrev. "QSI"
 
 A category of metrics for assessing the quality of public transport services provided. Unlike {ref}`O:OTP`, which looks at whether {ref}`T:TransitUnit`s arrive at designated {ref}`T:Timepoint`s on time, QSIs can include a variety of other metrics such as average waiting time at an average stop or station.
 
 ```
+````

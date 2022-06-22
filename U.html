@@ -50,6 +50,8 @@ const thebe_selector_input = "pre"
 const thebe_selector_output = ".output, .cell_output"
 </script>
     <script async="async" src="_static/sphinx-thebe.js"></script>
+    <script>window.MathJax = {"options": {"processHtmlClass": "tex2jax_process|mathjax_process|math|output_area"}}</script>
+    <script defer="defer" src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
     <link rel="index" title="Index" href="genindex.html" />
     <link rel="search" title="Search" href="search.html" />
     <link rel="next" title="V" href="V.html" />
@@ -439,6 +441,32 @@ title="Print to PDF"
 <h1>U<a class="headerlink" href="#u" title="Permalink to this headline">#</a></h1>
 <section id="utilisation-rate">
 <h2>Utilisation Rate<a class="headerlink" href="#utilisation-rate" title="Permalink to this headline">#</a></h2>
+<div class="sd-tab-set docutils">
+<input checked="checked" id="1148c278-23bf-4f85-a8df-aeb43b2c078a" name="f4bde8d8-2da3-49c4-9cae-61f8be93b96c" type="radio">
+</input><label class="sd-tab-label" for="1148c278-23bf-4f85-a8df-aeb43b2c078a">
+Definition</label><div class="sd-tab-content docutils">
+<p>An assessment metric that measures the degree a vehicle is being productive, along a given route and timeframe. It measures the proportion of vehicle hours that are being used to operate revenue service.</p>
+<p>The utilisation rate helps planners assess whether a route is being cost-effective and productive, and helps identify which services could use higher frequencies to minimise idling and layover time.</p>
+</div>
+<input id="399ebd19-f497-4dcb-b15e-825bae80f640" name="f4bde8d8-2da3-49c4-9cae-61f8be93b96c" type="radio">
+</input><label class="sd-tab-label" for="399ebd19-f497-4dcb-b15e-825bae80f640">
+Application</label><div class="sd-tab-content docutils">
+<p>Metrics:</p>
+<ul class="simple">
+<li><p>Percentage (%)</p></li>
+</ul>
+<p>Utilisation Rate is calculated by
+<span class="math notranslate nohighlight">\(
+\frac{Revenue Service Hours}{(Vehicles Required) x ({ref}`S:ServiceSpan`)}
+\)</span></p>
+<p>where Service Span and Revenue Service Hours are converted to minutes.</p>
+</div>
+<input id="fb2e2897-8b9c-4f8f-a499-56ce2892a26f" name="f4bde8d8-2da3-49c4-9cae-61f8be93b96c" type="radio">
+</input><label class="sd-tab-label" for="fb2e2897-8b9c-4f8f-a499-56ce2892a26f">
+Example</label><div class="sd-tab-content docutils">
+<p>WIP</p>
+</div>
+</div>
 </section>
 </section>
 

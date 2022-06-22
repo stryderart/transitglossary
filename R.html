@@ -509,27 +509,122 @@ title="Print to PDF"
 <h1>R<a class="headerlink" href="#r" title="Permalink to this headline">#</a></h1>
 <section id="real-time-passenger-information">
 <h2>Real-Time Passenger Information<a class="headerlink" href="#real-time-passenger-information" title="Permalink to this headline">#</a></h2>
+<div class="sd-tab-set docutils">
+<input checked="checked" id="99946207-6685-4112-a919-82407f131a98" name="b36ea0d9-815f-4392-9af2-65ab2f0540c5" type="radio">
+</input><label class="sd-tab-label" for="99946207-6685-4112-a919-82407f131a98">
+Definition</label><div class="sd-tab-content docutils">
+<p>abbrev. “RTPI”</p>
+<p>A network of displays, screens, mobile applications, and other devices that enable passengers to directly access live information about their public transport services. It is an integrated system of hardware and software, and is most commonly facilitated by <a class="reference internal" href="G.html#g-gtfs"><span class="std std-ref">General Transit Feed Specification</span></a>.</p>
+</div>
+</div>
 </section>
 <section id="recovery-time">
 <h2>Recovery Time<a class="headerlink" href="#recovery-time" title="Permalink to this headline">#</a></h2>
+<div class="sd-tab-set docutils">
+<input checked="checked" id="70f54cc8-468f-4a21-99f0-21dc1935abb9" name="66f8b859-ea47-4d6b-8beb-bff88d40409d" type="radio">
+</input><label class="sd-tab-label" for="70f54cc8-468f-4a21-99f0-21dc1935abb9">
+Definition</label><div class="sd-tab-content docutils">
+<p>The time built into a <a class="reference internal" href="S.html#s-schedule"><span class="std std-ref">Schedule</span></a> in-between a <a class="reference internal" href="T.html#t-transitunit"><span class="std std-ref">Transit Unit</span></a>’s arrival and destination time, to catch up on potential delays.</p>
+<p><a class="reference internal" href="L.html#l-layover"><span class="std std-ref">Layover</span></a> Time can be considered as a specific type of recovery time.</p>
+<p>Building in recovery time is an important element of scheduling to consider, especially when roadside conditions are known to be unpredictable and volatile.</p>
+</div>
+</div>
 </section>
 <section id="revenue-service">
 <span id="r-revenueservice"></span><h2>Revenue Service<a class="headerlink" href="#revenue-service" title="Permalink to this headline">#</a></h2>
+<div class="sd-tab-set docutils">
+<input checked="checked" id="ed9a8eeb-2eba-4856-94f6-8a7a6ee41db8" name="13c7f6df-ab4c-40b9-906c-a1299bed4c52" type="radio">
+</input><label class="sd-tab-label" for="ed9a8eeb-2eba-4856-94f6-8a7a6ee41db8">
+Definition</label><div class="sd-tab-content docutils">
+<p>A metric that captures the quantity of productive service a <a class="reference internal" href="T.html#t-transitunit"><span class="std std-ref">Transit Unit</span></a> has provided, specifically from actively taking passengers during public operation. Time spent on charter or school bus services are generally not accounted for.</p>
+</div>
+<input id="dcc88470-d5fb-4437-afd6-8205e55f58d2" name="13c7f6df-ab4c-40b9-906c-a1299bed4c52" type="radio">
+</input><label class="sd-tab-label" for="dcc88470-d5fb-4437-afd6-8205e55f58d2">
+Application</label><div class="sd-tab-content docutils">
+<p>Metrics:</p>
+<ul class="simple">
+<li><p>Revenue Service Hours (time in hours)</p></li>
+<li><p>Revenue Service Miles (distance in miles)</p></li>
+<li><p>Revenue Service Trips (discrete number)</p></li>
+</ul>
+</div>
+</div>
 </section>
 <section id="ridership">
 <span id="r-ridership"></span><h2>Ridership<a class="headerlink" href="#ridership" title="Permalink to this headline">#</a></h2>
+<div class="sd-tab-set docutils">
+<input checked="checked" id="9a850241-333c-468d-ab30-530fa00fdf2f" name="97dcf3cc-1753-4f85-a07f-52bbf774e8e2" type="radio">
+</input><label class="sd-tab-label" for="9a850241-333c-468d-ab30-530fa00fdf2f">
+Definition</label><div class="sd-tab-content docutils">
+<p>a.k.a. “Passenger Volume”</p>
+<p>The volume of passengers using a public transportation service. Generally counted as the number of unlinked <a class="reference internal" href="B.html#b-boarding"><span class="std std-ref">Boarding</span></a>s (which excludes transfers), but can also be counted as every boarding action taken on a system.</p>
+<p>Ridership is often counted using <a class="reference internal" href="A.html#a-apc"><span class="std std-ref">Automated Passenger Counter</span></a>s.</p>
+</div>
+<input id="e0029b70-b795-4756-a815-585a4383aa31" name="97dcf3cc-1753-4f85-a07f-52bbf774e8e2" type="radio">
+</input><label class="sd-tab-label" for="e0029b70-b795-4756-a815-585a4383aa31">
+Application</label><div class="sd-tab-content docutils">
+<p>Metrics:</p>
+<ul class="simple">
+<li><p>Discrete number i.e. number of Boardings</p></li>
+<li><p>Discrete number adjusted i.e. “Unlinked Passenger Trips” as defined by the United States FTA.</p></li>
+<li><p>Number per time (in months or years)</p></li>
+</ul>
+</div>
+</div>
 </section>
 <section id="right-of-way">
 <span id="r-row"></span><h2>Right-of-Way<a class="headerlink" href="#right-of-way" title="Permalink to this headline">#</a></h2>
+<div class="sd-tab-set docutils">
+<input checked="checked" id="e9d7e2d4-12d0-4b52-b2b3-944f72246989" name="8edf1e1e-502b-4027-b468-5edd00a6f7f7" type="radio">
+</input><label class="sd-tab-label" for="e9d7e2d4-12d0-4b52-b2b3-944f72246989">
+Definition</label><div class="sd-tab-content docutils">
+<p>abbrev. “ROW”</p>
+<p>A legally exclusive and physically separated strip of land for use by public transport vehicles.</p>
+</div>
+<input id="61fa9cb5-22b9-44aa-ae02-1b22f56ecb52" name="8edf1e1e-502b-4027-b468-5edd00a6f7f7" type="radio">
+</input><label class="sd-tab-label" for="61fa9cb5-22b9-44aa-ae02-1b22f56ecb52">
+Application</label><div class="sd-tab-content docutils">
+<p>In the USA, ROWs are differentiated along three categories:</p>
+<ul class="simple">
+<li><p>Category A: A fully controlled Right-of-Way, generally <a class="reference internal" href="G.html#g-grade"><span class="std std-ref">Grade Separation</span></a> without crossings, such as a fully underground train line.</p></li>
+<li><p>Category B: A physically defined and separated ROW, but with at-grade crossings such as street intersections.</p></li>
+<li><p>Category C: A ROW integrated at surface street level, mixed in with other modes of transportation and pedestrians.</p></li>
+</ul>
+</div>
+</div>
 </section>
 <section id="rolling-stock">
 <h2>Rolling Stock<a class="headerlink" href="#rolling-stock" title="Permalink to this headline">#</a></h2>
+<div class="sd-tab-set docutils">
+<input checked="checked" id="9d0f2dee-bfa7-4a1f-aca7-a8059bc03724" name="9be0e120-83ad-4d3d-a407-72e78cf98df5" type="radio">
+</input><label class="sd-tab-label" for="9d0f2dee-bfa7-4a1f-aca7-a8059bc03724">
+Definition</label><div class="sd-tab-content docutils">
+<p>The railway-based <a class="reference internal" href="T.html#t-transitunit"><span class="std std-ref">Transit Unit</span></a>s that make up a <a class="reference internal" href="F.html#f-fleet"><span class="std std-ref">Fleet</span></a>. Rolling stock can be powered or unpowered.</p>
+<p>In the USA, rolling stock can also refer to any public transport vehicle, ranging from buses to train carriages to auxiliary support vehicles.</p>
+</div>
+</div>
 </section>
 <section id="run">
 <span id="r-run"></span><h2>Run<a class="headerlink" href="#run" title="Permalink to this headline">#</a></h2>
+<div class="sd-tab-set docutils">
+<input checked="checked" id="f7f0f4d5-7234-470d-93af-ca0742af3953" name="5934d879-2790-4d85-820b-01b6964989aa" type="radio">
+</input><label class="sd-tab-label" for="f7f0f4d5-7234-470d-93af-ca0742af3953">
+Definition</label><div class="sd-tab-content docutils">
+<p>The tasks assigned to operators during a day. Runs may consist of a partial, one whole, or more than one block (see <a class="reference internal" href="B.html#b-blocking"><span class="std std-ref">Blocking</span></a>).</p>
+<p>This term is easily confused with <a class="reference internal" href="T.html#t-trip"><span class="std std-ref">Trip</span></a>, which refers to the individual operation of a public transport service along a route, and is not operator specific.</p>
+</div>
+</div>
 </section>
 <section id="runcutting">
 <span id="r-runcutting"></span><h2>Runcutting<a class="headerlink" href="#runcutting" title="Permalink to this headline">#</a></h2>
+<div class="sd-tab-set docutils">
+<input checked="checked" id="5e0f3176-5e42-44cb-99cf-61112bd8cc1c" name="083e6092-26a3-46f1-8615-2410c1124d48" type="radio">
+</input><label class="sd-tab-label" for="5e0f3176-5e42-44cb-99cf-61112bd8cc1c">
+Definition</label><div class="sd-tab-content docutils">
+<p>The iterative scheduling process used to develop <a class="reference internal" href="#r-run"><span class="std std-ref">Run</span></a>s from a vehicle block assignment.</p>
+<p>Where <a class="reference internal" href="B.html#b-blocking"><span class="std std-ref">Blocking</span></a> is used to optimise the number of vehicles needed in service, Runcutting is used to optimise the number of operators or drivers needed to provide service.</p>
+</div>
+</div>
 </section>
 </section>
 

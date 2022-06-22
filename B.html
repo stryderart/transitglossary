@@ -469,15 +469,67 @@ title="Print to PDF"
 <h1>B<a class="headerlink" href="#b" title="Permalink to this headline">#</a></h1>
 <section id="boarding">
 <span id="b-boarding"></span><h2>Boarding<a class="headerlink" href="#boarding" title="Permalink to this headline">#</a></h2>
+<div class="sd-tab-set docutils">
+<input checked="checked" id="7b5e0996-d1ef-4b22-a126-79558cb209b1" name="103650d1-9e33-4313-9024-be0f3725fdbb" type="radio">
+</input><label class="sd-tab-label" for="7b5e0996-d1ef-4b22-a126-79558cb209b1">
+Definition</label><div class="sd-tab-content docutils">
+<p>The entry of passengers into a public transport vehicle.</p>
+<p>This is a fundamental measurement of passenger flows in using public transport.</p>
+</div>
+<input id="2a8e5dba-b210-43a2-8de0-2e133031b66c" name="103650d1-9e33-4313-9024-be0f3725fdbb" type="radio">
+</input><label class="sd-tab-label" for="2a8e5dba-b210-43a2-8de0-2e133031b66c">
+Application</label><div class="sd-tab-content docutils">
+<p>Metrics:</p>
+<ul class="simple">
+<li><p>Discrete number (i.e. 320 passengers)</p></li>
+<li><p>Passengers per km travelled per hour.</p></li>
+</ul>
+</div>
+</div>
 </section>
 <section id="base-period">
 <span id="b-baseperiod"></span><h2>Base Period<a class="headerlink" href="#base-period" title="Permalink to this headline">#</a></h2>
+<div class="sd-tab-set docutils">
+<input checked="checked" id="b18687dc-094f-428b-853a-72a0ab00f8b6" name="f12720ea-05af-4531-b56d-fcd8254eea31" type="radio">
+</input><label class="sd-tab-label" for="b18687dc-094f-428b-853a-72a0ab00f8b6">
+Definition</label><div class="sd-tab-content docutils">
+<p>a.k.a “Off-Peak Period”</p>
+<p>The time period when services are scheduled at a regular, consistent level. This is contrasted with <span class="xref std std-ref">P:PeakPeriod</span>.</p>
+<p>This is the general span of time where public transport services operate on a baseline <a class="reference internal" href="H.html#h-headway"><span class="std std-ref">Headway</span></a> or <a class="reference internal" href="F.html#f-frequency"><span class="std std-ref">Frequency</span></a>, not varying in response to demand.</p>
+</div>
+</div>
 </section>
 <section id="blocking">
 <span id="b-blocking"></span><h2>Blocking<a class="headerlink" href="#blocking" title="Permalink to this headline">#</a></h2>
+<div class="sd-tab-set docutils">
+<input checked="checked" id="6b383401-fd2c-4378-b302-80e8c32fea6f" name="acf63724-64a5-41c7-9d9d-63fbcfbb6565" type="radio">
+</input><label class="sd-tab-label" for="6b383401-fd2c-4378-b302-80e8c32fea6f">
+Definition</label><div class="sd-tab-content docutils">
+<p>The process conducted by public transport service providers to divide a day’s <a class="reference internal" href="S.html#s-schedule"><span class="std std-ref">Schedule</span></a> by <a class="reference internal" href="V.html#v-vehicle"><span class="std std-ref">Vehicle</span></a> assignments.</p>
+<p>This is a crucial part of the scheduling process, as it determines the availability of <a class="reference internal" href="T.html#t-transitunit"><span class="std std-ref">Transit Unit</span></a>s within a day. It is further used in the <a class="reference internal" href="R.html#r-runcutting"><span class="std std-ref">Runcutting</span></a> process to develop work shifts for operators and calculate the overall labour needed to operate service.</p>
+</div>
+<input id="ab30fa09-843b-46bb-9c2f-d12404147550" name="acf63724-64a5-41c7-9d9d-63fbcfbb6565" type="radio">
+</input><label class="sd-tab-label" for="ab30fa09-843b-46bb-9c2f-d12404147550">
+Application</label><div class="sd-tab-content docutils">
+<p>Blocking is done by selecting all the individual <a class="reference internal" href="R.html#r-run"><span class="std std-ref">Run</span></a>s that a specific vehicle will perform in a day, accounting for <a class="reference internal" href="L.html#l-layover"><span class="std std-ref">Layover</span></a>s. Then, these runs are grouped together into a block, specific to that vehicle.</p>
+<p>The goal of blocking is to optimise layover times, and identify where drivers or operators should begin and end their shifts whilst minimising <a class="reference internal" href="D.html#d-deadhead"><span class="std std-ref">Deadhead</span></a>. Cost-efficient blocking helps agencies minimise operating expenses and the number of vehicles needed.</p>
+<p>Where large gaps of time emerge between runs in a block, opportunities for <a class="reference internal" href="I.html#i-interlining"><span class="std std-ref">Interlining</span></a> can be identified. A vehicle’s assignments serving a different route are also included into the block.</p>
+</div>
+</div>
 </section>
 <section id="bunching">
 <h2>Bunching<a class="headerlink" href="#bunching" title="Permalink to this headline">#</a></h2>
+<div class="sd-tab-set docutils">
+<input checked="checked" id="44b60806-b28b-4afa-ac59-f5fd3cdbd0b8" name="69e9f999-ae91-4036-9e3f-8681a9e77290" type="radio">
+</input><label class="sd-tab-label" for="44b60806-b28b-4afa-ac59-f5fd3cdbd0b8">
+Definition</label><div class="sd-tab-content docutils">
+<ul class="simple">
+<li><p>a.k.a “clumping”
+A phenomenon where multiple public transport vehicles or <a class="reference internal" href="T.html#t-transitunit"><span class="std std-ref">Transit Unit</span></a>s (TUs) on the same route are operating in the same place at the same time, thus arriving at stops together or unintended rapid succession. This typically occurs when traffic conditions or other incidents lead to a TU being delayed, thus reducing its <a class="reference internal" href="H.html#h-headway"><span class="std std-ref">Headway</span></a> with the following TU.</p></li>
+</ul>
+<p>This is an important occurrence for service providers to track, as it distorts schedules and passenger expectations, prolonging wait times whilst duplicating the supply of public transport services at a later time.</p>
+</div>
+</div>
 </section>
 </section>
 
