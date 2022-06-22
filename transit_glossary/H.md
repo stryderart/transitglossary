@@ -1,19 +1,20 @@
 # H
 
 ## Headsign
-
-```{tabbed} Definition
+````{tab-set}
+```{tab-item} Definition
 An information display generally installed on the front and side of public transport vehicles, that states the route or line information such as name, destination, and occasionally places of interest along the route.
 
 Headsigns are important components of a public transport vehicle, providing critical passenger information about the route and the purpose of this service.
 ```
-
+````
 (H:Headway)=
 
 ## Headway
 
-````{dropdown} Actual Headway
-```{tabbed} Definition
+`````{dropdown} Actual Headway
+````{tab-set}
+```{tab-item} Definition
 
 The duration of time between {ref}`T:TransitUnit` serving a particular route at a given station/stop, at a given time of day. It can be interpreted as the time a passenger spends waiting for a vehicle.
 
@@ -21,7 +22,7 @@ This is important information to understand a public transport service's {ref}`O
 
 A headway is one way to quantify the level of public transport services offered. It is the inverse of {ref}`F:Frequency`.
 ```
-```{tabbed} Application
+```{tab-item} Application
 Metrics:
 * Minutes per TU. (i.e. a bus every five minutes)
 
@@ -31,14 +32,15 @@ $$
 $$
 ```
 ````
-
-````{dropdown} Effective Headway
-```{tabbed} Definition
+`````
+`````{dropdown} Effective Headway
+````{tab-set}
+```{tab-item} Definition
 
 The composite time between {ref}`T:TransitUnit`s connecting a particular origin and destination trip ({ref}`O:OD`), accounting for all routes that serve this connection. It is the time a passenger must wait for a vehicle to deliver them to their destination, regardless of what route they take.
 
 ```
-```{tabbed} Application
+```{tab-item} Application
 
 Metrics:
 * Minutes per TU. (i.e. a bus every five minutes)
@@ -60,17 +62,20 @@ $$
 
 ```
 ````
+`````
 
 (P:PolicyHeadway)=
 
-````{dropdown} Policy Headway
-```{tabbed} Definition
+`````{dropdown} Policy Headway
+````{tab-set}
+```{tab-item} Definition
 The baseline scheduled length of time between {ref}`T:TransitUnit` serving a particular route. It can be interpreted as the baseline (or maximum) time a passenger should generally expect to wait between vehicles, at any station or time of day on a route.
 
 A policy headway is generally used for low demand or low ridership routes, to provide minimal level of service to a region.
 ```
-```{tabbed} Application
+```{tab-item} Application
 Metrics:
 * Minutes per TU
 ```
 ````
+`````
