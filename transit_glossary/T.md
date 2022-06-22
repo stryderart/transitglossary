@@ -1,15 +1,17 @@
 # T
 
 ## Time Lost
+````{tab-set}
 ```{tab-item} Definition
 
 The time involved between decceleration to a stop/station and boarding the first passenger; the time involved between acceleration from stationary to operating {ref}`S:Speed`.
 ```
+````
 
 (T:Timepoint)=
 
 ## Timepoint
-
+````{tab-set}
 ```{tab-item} Definition
 
 A designation given to specific stops or stations spaced out along a route, where actual arrival and departure times are recorded.
@@ -21,6 +23,7 @@ Considerations when selecting timepoints include:
 * Position along the route
 * Distance between previous and next stops
 ```
+````
 
 ## Timed Transfer
 ````{tab-set}

@@ -22,7 +22,7 @@
 ```{tab-item} Definition
 The time a transit unit takes to complete a round trip to its destination and return to its origin, including layover and recovery time.
 
-The Cycle Time is a key element in public transport service scheduling, as it represents the time needed for a {ref}`T:Transit Unit` to complete its primary function, and identifies when it can be used again.
+The Cycle Time is a key element in public transport service scheduling, as it represents the time needed for a {ref}`T:TransitUnit` to complete its primary function, and identifies when it can be used again.
 ```
 
 ```{tab-item} Application

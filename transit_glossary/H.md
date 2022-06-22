@@ -37,7 +37,7 @@ $$
 ````{tab-set}
 ```{tab-item} Definition
 
-The composite time between {ref}`T:TransitUnit`s connecting a particular origin and destination trip ({ref}`O:OD`), accounting for all routes that serve this connection. It is the time a passenger must wait for a vehicle to deliver them to their destination, regardless of what route they take.
+The composite time between {ref}`T:TransitUnit`s connecting a particular origin and destination trip, accounting for all routes that serve this connection. It is the time a passenger must wait for a vehicle to deliver them to their destination, regardless of what route they take.
 
 ```
 ```{tab-item} Application

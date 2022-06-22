@@ -3,7 +3,7 @@
 (Q:QSI)=
 
 ## Quality of Service Indicator
-````{tab-set}
+
 ```{sidebar} UK - Transport for London (TfL)
 QSIs are a hallmark of TfL's performance tracking and assessment practices.
 
@@ -11,6 +11,7 @@ See [TfL's Performance Reporting Page](https://tfl.gov.uk/forms/14144.aspx) for 
 
 ```
 
+````{tab-set}
 ```{tab-item} Definition
 abbrev. "QSI"
 

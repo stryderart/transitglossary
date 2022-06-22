@@ -24,7 +24,7 @@ Metrics:
 ```{tab-item} Definition
 a.k.a "Off-Peak Period"
 
-The time period when services are scheduled at a regular, consistent level. This is contrasted with {ref}`P:Peak Period`.
+The time period when services are scheduled at a regular, consistent level. This is contrasted with {ref}`P:PeakPeriod`.
 
 This is the general span of time where public transport services operate on a baseline {ref}`H:Headway` or {ref}`F:Frequency`, not varying in response to demand.
 ```
@@ -56,7 +56,7 @@ Where large gaps of time emerge between runs in a block, opportunities for {ref}
 ````{tab-set}
 ```{tab-item} Definition
 * a.k.a "clumping"
-A phenomenon where multiple public transport vehicles or {ref}`T:Transit Units` (TUs) on the same route are operating in the same place at the same time, thus arriving at stops together or unintended rapid succession. This typically occurs when traffic conditions or other incidents lead to a TU being delayed, thus reducing its {ref}`H:Headway` with the following TU.
+A phenomenon where multiple public transport vehicles or {ref}`T:TransitUnit`s (TUs) on the same route are operating in the same place at the same time, thus arriving at stops together or unintended rapid succession. This typically occurs when traffic conditions or other incidents lead to a TU being delayed, thus reducing its {ref}`H:Headway` with the following TU.
 
 This is an important occurrence for service providers to track, as it distorts schedules and passenger expectations, prolonging wait times whilst duplicating the supply of public transport services at a later time.
 ```
